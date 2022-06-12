@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  background-color: black;
+}
+
+.tr-tabela td,
+th {
+  border: 1px solid #808080;
+  padding: 5px 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #f8f8ff;
+}
+
+.wrapper-geral {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.modal {
+  min-width: 1000px;
+  min-height: 300px;
+}
+
+.modal-detalhes-trigger {
+  display: flex;
+  justify-content: flex-end;
+}
