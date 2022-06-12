@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    
+    <!-- <meta http-equiv="refresh" content="1" > -->
+
     <title>Analisador Sintático</title>
     
     <link rel="stylesheet" href="css/libs/materialize.min.css">
@@ -13,28 +14,22 @@
 </head>
 <body>
 <nav>
-  <div class="nav-wrapper black">
-    <div class="container center-align">
-      <span style="font-size: 30px;">Analisador Sintático</span>
-    </div>
-    <div class="modal-detalhes-trigger">
-      <a class="btn black pull-right" href="#ex1" rel="modal:open">Mostrar Detalhes</a>
-    </div>
+  <div class="nav-wrapper white">
+    <input placeholder="Insira aqui os tokens" class="token"></imput>
+    <a class="btn black botao-gerar">
+      Gerar
+    </a>
+    <a class="btn black botao-testar">
+      Testar
+    </a>
+    <a class="btn black" href="#ex1" rel="modal:open">Mostrar Detalhes</a>
   </div>
 </nav>
 
   <div class="container wrapper-geral">
     <div style="margin-top: 2em;" class="area-analise">
       <div class="row">
-        <div style="margin-top: 7px" class="col m9 col s8">
-          <input placeholder="Insira aqui os tokens" class="token"></imput>
-        </div>
-          <a class="btn black botao-gerar">
-            Gerar
-          </a>
-          <a class="btn blue botao-testar">
-            Testar
-          </a>
+          
           <div style="margin-top: 7px" class="col m6">
             <span>Tokens corretos:</span>
             <input disabled class="tokens-corretos"></imput>
@@ -46,7 +41,7 @@
       </div>
 
       <div class="col m12 area-analise">
-        <table class="centered borderd">
+        <table class="centered striped highlight">
           <thead>
             <th>Pilha</th>
             <th>Entrada</th>
@@ -58,11 +53,8 @@
         </table>
       </div>
       <div class="center">
-        <a style="margin: 2em;" class="btn blue botao-passos">
+        <a style="margin: 2em;" class="btn black botao-passos">
           Passo a passo
-        </a>
-        <a style="margin: 2em; display: none" class="btn blue botao-reiniciar">
-          Reiniciar
         </a>
       </div>
     </div>
@@ -101,7 +93,7 @@
 
         <div class="area-tabela col m6">
           <strong>Tabela:</strong>
-          <table class="centered bordered tabela-automato">
+          <table class="centered tabela-automato striped highlight">
             <thead>
               <th>-</th>
               <th>a</th>
@@ -168,12 +160,6 @@
       <a href="#" rel="modal:close">Fechar</a>
     </div>
   </div>
-
-  <footer class="page-footer black footer">
-    <div class="footer-copyright">
-    </div>
-  </footer>
-
   <script src="js/jquery.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="js/main.js"></script>

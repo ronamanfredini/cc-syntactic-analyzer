@@ -8,7 +8,6 @@
 // });
 
 $(".botao-passos").css("display", "none");
-$(".botao-testar").css("display", "none");
 
 $(".botao-gerar").click(function () {
   setTimeout(function () {
