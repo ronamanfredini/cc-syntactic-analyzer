@@ -42,3 +42,7 @@ body {
   color: black;
   margin-left: 16px;
 }
+
+.hide {
+  display: none;
+}
