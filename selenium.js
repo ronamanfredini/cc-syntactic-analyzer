@@ -38,8 +38,6 @@ const driver = new Builder()
 
 driver.get("http://localhost:3000/");
 
-
-
 const validSentenceFinder = async () => {
   const sentence = sentenceGenerator();
   const tokenInput = await driver.findElement(By.id("token-input"));
