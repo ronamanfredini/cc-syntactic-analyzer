@@ -257,3 +257,8 @@ $(".botao-reiniciar").click(function () {
   $(".botao-reiniciar").css("display", "none");
   click = 0;
 });
+
+
+function reload() {
+  document.location.reload();
+}

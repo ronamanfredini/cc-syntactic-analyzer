@@ -37,6 +37,9 @@ body {
 .nav-wrapper a {
   margin-left: 16px;
 }
+.nav-wrapper button {
+  margin-left: 16px;
+}
 
 .nav-wrapper input {
   color: black;
@@ -45,4 +48,9 @@ body {
 
 .hide {
   display: none;
+}
+
+.close-modal {
+  margin-top: 15px !important;
+  margin-right: 15px;
 }
