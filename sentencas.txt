@@ -1,3 +1,13 @@
-Sentenças OK:
-ac, adac, adcabc, adadac, adadccabbc
+Sentenças ok:
+
+adccccadcabbbbbc: OK em 28 iterações
+adadadadac: OK em 21 iterações
+adcabc: OK em 12 iterações
+adadac: OK em 13 iterações
+ac: OK em 5 iterações
+
+Entradas incorretas:
+adc: Erro em 7 iterações
+abcd: Erro em 4 iterações
+addabcdacc: Erro em 5 iterações
 
